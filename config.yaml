@@ -1,0 +1,48 @@
+# AndUbeat -Config-
+# By INTER-INIT;
+
+# 编辑好的图片路径
+IMAGE_PATH: "./controllerdata/jubeat_monitor.png"
+# 多点触控数量
+MAX_SLOT: 12
+# 检测区域的像素值范围
+AREA_SCOPE: 50
+# 检测区域圆上点的数量
+AREA_POINT_NUM: 10
+# Android 设备实际屏幕大小 (单位:像素)
+ANDROID_ABS_MONITOR_SIZE: [ 长, 宽 ]
+# Android 设备触控屏幕大小 (单位:像素)
+ANDROID_ABS_INPUT_SIZE: [ 长, 宽 ]
+# 是否开启屏幕反转(充电口朝上时开启该配置)
+# 警告:在XiaomiPad6SPro(Android14,15)上测得本功能工作不正常,请谨慎开启
+ANDROID_REVERSE_MONITOR: False
+# touch_thread 是否启用sleep, 默认关闭, 如果程序 CPU 占用较高则开启, 如果滑动时延迟极大请关闭
+TOUCH_THREAD_SLEEP_MODE: false
+# 每次 sleep 的延迟, 单位: 微秒, 默认 100 微秒
+TOUCH_THREAD_SLEEP_DELAY: 100
+# 测试模式,在终端输出所有日志以供调试,默认关闭
+DEV_MODE: False
+
+# RGB 颜色值对应区块配置
+# 格式:R-G-B
+exp_image_dict:
+  '41-65-93': q
+  '87-152-13': w
+  '213-109-81': e
+  '23-222-55': r
+  '69-203-71': t
+  '147-253-55': y
+  '77-19-35': u
+  '159-109-79': i
+  '87-217-111': o
+  '149-95-154': p
+  '97-233-9': a
+  '159-27-222': s
+  '152-173-186': d
+  '192-185-149': f
+  '158-45-23': g
+  '197-158-219': h
+  '127-144-79': j
+  '242-41-155': k
+  '69-67-213': l
+  
